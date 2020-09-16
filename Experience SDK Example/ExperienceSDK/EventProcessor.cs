@@ -28,7 +28,7 @@ namespace Experience_SDK_Example.ExperienceSDK
             _accHash = accHash;
             _region = region;
             _transport = new DataTransport(_region);
-            _timeService = new TimeSyncService(new TimeSpan(0, 1, 0));
+            _timeService = new TimeSyncService(new TimeSpan(0, 5, 0));
         }
 
         /// <summary>
